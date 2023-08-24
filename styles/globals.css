@@ -1,0 +1,26 @@
+
+
+
+@tailwind base;
+
+@tailwind components;
+
+@layer components {
+    .hoverEffect{
+        @apply cursor-pointer hover:bg-gray-200 rounded-full w-[52px] xl:w-auto h-[52px] xl:h-auto xl:p-3
+    }
+}
+
+@tailwind utilities;
+
+.custom-img {
+    background-image: url('https://images.unsplash.com/photo-1488415032361-b7e238421f1b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGdyZWVufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60')
+}
+
+.custom-img1 {
+    background-image: url('https://images.unsplash.com/photo-1662100632989-b85fb0b4f245?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1ODJ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60')
+}
+
+.custom-img2 {
+    background-image: url('https://images.unsplash.com/photo-1677350840391-6dbcea6498d4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=600&q=60')
+}
