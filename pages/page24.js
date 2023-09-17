@@ -2,18 +2,21 @@
 import React from 'react';
 import { useForm } from 'react-hook-form';
 
+
 function MyComponent() {
   const { register, handleSubmit, setValue } = useForm();
 
-  const onSubmit = async (data) => {
+  var six = {title: 'bbbbbbbbbbb', content: 'cccccccccccccc'}
+
+  const onSubmit = async () => {
     // Make a POST request to your serverless function to generate the Word document
-    console.log(data)
+    console.log(six)
     const response = await fetch('./api/generateWord', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify(data), // Send user input data to the server
+      body: JSON.stringify(six), // Send user input data to the server
     });
 
     if (!response.ok) {
@@ -52,4 +55,5 @@ function MyComponent() {
 }
 
 export default MyComponent;
+
 
