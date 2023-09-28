@@ -64,7 +64,9 @@ You are required to attend a meeting to discuss concerns about your ${prompt2} a
 
 You are able to bring a support person to the meeting
 
-Letter is from ${prompt6}
+[space]
+
+Sign the letter from ${prompt6}
 
 Instruction 1: Write a disciplinary invitation letter for ${prompt1}. 
 

@@ -21,7 +21,7 @@ export default function FormComponent() {
   const [aa, seta] = useState();
 
 
-  const onSubmit = async ({ forminput1, forminput2, forminput3, forminput4, forminput5 }) => {
+  const onSubmit = async ({ forminput1, forminput2, forminput3, forminput4, forminput5, forminput6 }) => {
     try {
       setIsFetching(true);
 
@@ -33,6 +33,7 @@ export default function FormComponent() {
           prompt3: forminput3,
           prompt4: forminput4,
           prompt5: forminput5,
+          prompt6: forminput6,          
          }),
         headers: {
           'Content-Type': 'application/json',
