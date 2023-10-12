@@ -53,7 +53,7 @@ The text below is a typical disciplinary invitation letter.
  
  Hello ${prompt1} [space]
  
-You are required to attend a meeting to discuss concerns about your ${prompt2} at work
+You are required to attend a meeting to discuss concerns about your ${prompt2} at work.
  
    Location: ${prompt5}
    Date: ${prompt4}
@@ -62,7 +62,7 @@ You are required to attend a meeting to discuss concerns about your ${prompt2} a
 
 
 
-You are able to bring a support person to the meeting
+You are able to bring a support person to the meeting.
 
 [space]
 
