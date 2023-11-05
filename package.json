@@ -13,6 +13,7 @@
     "@react-pdf/renderer": "^3.1.12",
     "@shopify/shopify-api": "^7.6.0",
     "antd": "^5.8.2",
+    "dalle-node": "^1.0.8",
     "docx": "^8.2.2",
     "docxtemplater": "^3.38.0",
     "dotenv": "^16.3.1",
