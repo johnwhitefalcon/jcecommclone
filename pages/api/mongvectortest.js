@@ -1,3 +1,4 @@
+
  
 import { MongoClient } from "mongodb";
 
@@ -23,15 +24,13 @@ const dbname = 'mongdbase'
           limit: 10,
           numCandidates: 100,
         },
-        
-        
-
       },
     ];
 
-    const result = await collection.aggregate(agg)
+    const result = await collection.aggregate(agg).toArray();
     
-    res.status(200).json({ result });
+    const black = res.status(200).json({ result });
+    console.log(result)
     
   } catch (error) {
     console.error("Error:", error);
@@ -40,4 +39,7 @@ const dbname = 'mongdbase'
     await client.close();
   }
 }
+
+
+
 
